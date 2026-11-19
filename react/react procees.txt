@@ -1,0 +1,6 @@
+npx create-react-app project(projectname)
+cd (project name)
+npm start
+
+router install :
+npm install react-router-dom

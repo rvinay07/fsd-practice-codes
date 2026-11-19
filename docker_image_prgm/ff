@@ -1,0 +1,1 @@
+cmd to create docker image :  docker build -t myjavaapp44 .

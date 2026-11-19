@@ -1,0 +1,13 @@
+import { useState } from "react";
+import {createRoot} from "react-dom/client";
+function Fruit()
+{
+  const[color,setColor]=useState("red");
+  return (
+    <div>
+      <h1> The fruit is {color} </h1>
+    </div>
+  );
+}
+createRoot(document.getElementById("root")).render(<Fruit/>);
+export default Fruit;
